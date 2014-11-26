@@ -290,3 +290,8 @@ For more Informations about certain topics you might want to check these links:
 * [Apache RewriteRule Flags](http://httpd.apache.org/docs/2.2/rewrite/flags.html)
 * [A JS solution using the useragent](https://github.com/sebarmeli/JS-Redirection-Mobile-Site/blob/master/src/redirection-mobile.js)
 * [http://detectmobilebrowsers.mobi/](http://detectmobilebrowsers.mobi/)
+
+
+# License
+
+MIT
