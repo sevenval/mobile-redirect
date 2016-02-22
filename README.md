@@ -58,7 +58,7 @@ Header set Vary "User-Agent" env=MOBILESITEREDIRECT
 #################################################################################################
 RewriteCond %{env:MOBILESITEREDIRECT} ^on$
 # Disable the following line if tablets should be treated as a desktop device
-RewriteCond %{HTTP_USER_AGENT} "Android 3.0|Pad|Xoom|Flyer" [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} "Android 3.0|Pad|Xoom|Flyer|tablet" [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} "nokia|iphone|android|motorola|^mot-|^lct|^lg-|\(webos/" [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} "softbank|foma|docomo|kddi|up\.browser|up\.link" [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} "htc|dopod|blazer|netfront|helio|hosin|huawei|xda" [NC,OR]
